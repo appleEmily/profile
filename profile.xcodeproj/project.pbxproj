@@ -15,6 +15,10 @@
 		A132BE4E23882A7E000849C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A132BE4C23882A7E000849C6 /* LaunchScreen.storyboard */; };
 		A132BE5923882A7F000849C6 /* profileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132BE5823882A7F000849C6 /* profileTests.swift */; };
 		A132BE6423882A7F000849C6 /* profileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132BE6323882A7F000849C6 /* profileUITests.swift */; };
+		A132BE7623882B87000849C6 /* dance.png in Resources */ = {isa = PBXBuildFile; fileRef = A132BE7223882B87000849C6 /* dance.png */; };
+		A132BE7723882B87000849C6 /* soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = A132BE7323882B87000849C6 /* soccer.png */; };
+		A132BE7823882B87000849C6 /* tobisuke.png in Resources */ = {isa = PBXBuildFile; fileRef = A132BE7423882B87000849C6 /* tobisuke.png */; };
+		A132BE7923882B87000849C6 /* sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = A132BE7523882B87000849C6 /* sushi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A132BE3E23882A75000849C6 /* profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = profile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A132BE3E23882A75000849C6 /* 自己紹介.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自己紹介.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A132BE4123882A75000849C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A132BE4323882A75000849C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A132BE4523882A75000849C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		A132BE5F23882A7F000849C6 /* profileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = profileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A132BE6323882A7F000849C6 /* profileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileUITests.swift; sourceTree = "<group>"; };
 		A132BE6523882A7F000849C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A132BE7223882B87000849C6 /* dance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dance.png; sourceTree = "<group>"; };
+		A132BE7323882B87000849C6 /* soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccer.png; sourceTree = "<group>"; };
+		A132BE7423882B87000849C6 /* tobisuke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tobisuke.png; sourceTree = "<group>"; };
+		A132BE7523882B87000849C6 /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sushi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +97,7 @@
 		A132BE3F23882A75000849C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A132BE3E23882A75000849C6 /* profile.app */,
+				A132BE3E23882A75000849C6 /* 自己紹介.app */,
 				A132BE5423882A7F000849C6 /* profileTests.xctest */,
 				A132BE5F23882A7F000849C6 /* profileUITests.xctest */,
 			);
@@ -106,6 +114,7 @@
 				A132BE4A23882A7E000849C6 /* Assets.xcassets */,
 				A132BE4C23882A7E000849C6 /* LaunchScreen.storyboard */,
 				A132BE4F23882A7E000849C6 /* Info.plist */,
+				A132BE7123882B87000849C6 /* profile */,
 			);
 			path = profile;
 			sourceTree = "<group>";
@@ -128,6 +137,17 @@
 			path = profileUITests;
 			sourceTree = "<group>";
 		};
+		A132BE7123882B87000849C6 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				A132BE7223882B87000849C6 /* dance.png */,
+				A132BE7323882B87000849C6 /* soccer.png */,
+				A132BE7423882B87000849C6 /* tobisuke.png */,
+				A132BE7523882B87000849C6 /* sushi.png */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,7 +165,7 @@
 			);
 			name = profile;
 			productName = profile;
-			productReference = A132BE3E23882A75000849C6 /* profile.app */;
+			productReference = A132BE3E23882A75000849C6 /* 自己紹介.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A132BE5323882A7F000849C6 /* profileTests */ = {
@@ -233,8 +253,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A132BE4E23882A7E000849C6 /* LaunchScreen.storyboard in Resources */,
+				A132BE7723882B87000849C6 /* soccer.png in Resources */,
 				A132BE4B23882A7E000849C6 /* Assets.xcassets in Resources */,
+				A132BE7823882B87000849C6 /* tobisuke.png in Resources */,
+				A132BE7923882B87000849C6 /* sushi.png in Resources */,
 				A132BE4923882A75000849C6 /* Main.storyboard in Resources */,
+				A132BE7623882B87000849C6 /* dance.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +466,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = emily.com.profile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "自己紹介";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = emily.com.profile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "自己紹介";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

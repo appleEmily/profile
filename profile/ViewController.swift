@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func showName(_ sender: Any) {
+        label.text = "とびすけ"
+        image.image = UIImage(named: "tobisuke.png")
+    }
+    
 }
 
